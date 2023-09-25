@@ -11,6 +11,7 @@
 		DA2117452AC24F700021FE5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2117442AC24F700021FE5B /* ContentView.swift */; };
 		DA2117472AC24F710021FE5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2117462AC24F710021FE5B /* Assets.xcassets */; };
 		DA21174A2AC24F710021FE5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2117492AC24F710021FE5B /* Preview Assets.xcassets */; };
+		DA2117512AC24F9C0021FE5B /* GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2117502AC24F9C0021FE5B /* GestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DA2117442AC24F700021FE5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA2117462AC24F710021FE5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA2117492AC24F710021FE5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA2117502AC24F9C0021FE5B /* GestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				DA2117422AC24F700021FE5B /* Gestures_And_CallbacksApp.swift */,
 				DA2117442AC24F700021FE5B /* ContentView.swift */,
+				DA2117502AC24F9C0021FE5B /* GestureRecognizer.swift */,
 				DA2117462AC24F710021FE5B /* Assets.xcassets */,
 				DA2117482AC24F710021FE5B /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA2117512AC24F9C0021FE5B /* GestureRecognizer.swift in Sources */,
 				DA2117452AC24F700021FE5B /* ContentView.swift in Sources */,
 				DA2117432AC24F700021FE5B /* Gestures_And_CallbacksApp.swift in Sources */,
 			);
