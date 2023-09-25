@@ -9,6 +9,7 @@ import SwiftUI
 
 struct GestureRecognizer: View {
     @State private var flag: Bool = false
+    @State private var tapCount: Int = 0
     var body: some View {
         Text("Tap Me")
             .font(.largeTitle)
@@ -19,7 +20,9 @@ struct GestureRecognizer: View {
             .cornerRadius(15)
             .onTapGesture {
                 flag.toggle()
+                tapCount += 1
             }
+        Text("TapCount: \(tapCount)")
     }
 }
 
